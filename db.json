@@ -1,0 +1,88 @@
+{
+  "user": [
+    {
+      "id": "adminuser",
+      "password": "Inyangegss@2020",
+      "fullname": "HAKIZIMANA Charles",
+      "email": "hacharles01@gmail.com",
+      "phone": "0788952977",
+      "country": "usa",
+      "address": "Rwanda",
+      "role": "admin",
+      "gender": "male"
+    },
+    {
+      "id": "user",
+      "password": "Inyangegss@2020",
+      "fullname": "HAKIZIMANA Charles",
+      "email": "hacharles01@gmail.com",
+      "phone": "0788952977",
+      "country": "",
+      "address": "Rwanda",
+      "role": "user",
+      "gender": "female"
+    },
+    {
+      "id": "user1",
+      "password": "Inyangegss@2020",
+      "fullname": "HAKIZIMANA Charles",
+      "email": "hacharles01@gmail.com",
+      "phone": "0788952977",
+      "country": "",
+      "address": "Rwanda",
+      "role": "user1",
+      "gender": "female"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true,
+      "id": "7cee"
+    },
+    {
+      "role": "admin",
+      "menu": "supply",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true,
+      "id": "74fe"
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": false,
+      "id": "5fff"
+    },
+    {
+      "role": "user1",
+      "menu": "customer",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false,
+      "id": "6ab5"
+    }
+  ],
+  "customer": [
+    {
+      "code": 1,
+      "name": "Charles HAKIZIMANA",
+      "email": "hacharles01@gmail.com"
+    },
+    {
+      "code": 2,
+      "name": "UWITUZE Odile",
+      "email": "hacharles02@gmail.com"
+    },
+    {
+      "code": 3,
+      "name": "IRANEZEZA Brighton",
+      "email": "hacharles03@gmail.com"
+    }
+  ]
+}
